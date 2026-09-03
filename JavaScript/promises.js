@@ -1,3 +1,9 @@
+/*
+    Promises are just Objects
+    Go read MDN docs or Boot.dev, its really easy
+*/
+
+
 // unrelated to promises
 function getRandomBool() {
     return Math.random() < 0.5;
