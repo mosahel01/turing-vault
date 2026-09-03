@@ -1,7 +1,7 @@
 import { moo } from "./moo.js";
 
-function nameLog(user) {
+function main(user) {
     const message = moo(user);
     console.log(`${message}`);
 }
-nameLog("there");
+main("there");
