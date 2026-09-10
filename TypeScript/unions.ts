@@ -29,19 +29,37 @@
 
 
 /* problem 2 */
-export type Priority = "low" | "medium" | "high" | "critical"
+// export type Priority = "low" | "medium" | "high" | "critical"
 
-function setPriority(level: Priority) {
-    switch (level) {
+// function setPriority(level: Priority) {
+//     switch (level) {
+//         case "low":
+//             return 0;
+//         case "medium":
+//             return 1;
+//         case "high":
+//             return 2;
+//         case "critical":
+//             return 3;
+//         default:
+//             return 0;
+//     }
+// }
+
+
+type timePass = "low"| "medium"| "high"
+
+function setTime(level: timePass) {
+    switch(level) {
         case "low":
-            return 0;
+            return "freaking bitch";
         case "medium":
-            return 1;
+            return "medium bitch";
         case "high":
-            return 2;
-        case "critical":
-            return 3;
-        default:
-            return 0;
+            return "high bitch";
     }
 }
+
+console.log(setTime("low"));
+console.log(setTime("high"));
+console.log(setTime("medium"));
