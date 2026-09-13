@@ -27,13 +27,16 @@
 const nums: number[] = [2, 7, 11, 15]
 const target: number = 9
 
-const twoSum = (nums:number[], target:number) => {
-    let Hmap: number = {};
+const twoSum = (nums: number[], target: number) => {
+    let Hmap = {};
     for (let [index, num] of nums.entries()) {
-        if(nums[index] == )
+        if (nums[index] == target) {
+            console.log(Hmap);
+            console.log(num);
+        }
     }
     console.log(Hmap);
 }
 
-twoSum(nums, target);
+
 

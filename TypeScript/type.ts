@@ -19,32 +19,66 @@
 
 // bootdev problem
 function interpolateComment(
-  id: number,
-  comment: string,
-  comments: (string | number)[],
+    id: number,
+    comment: string,
+    comments: (string | number)[],
 ) {
-  const iterator = comments.findIndex((item) => item == id);
-  if (iterator !== -1) {
-    comments[iterator] = comment;
-  }
-  return comments;
+    const iterator = comments.findIndex((item) => item == id);
+    if (iterator !== -1) {
+        comments[iterator] = comment;
+    }
+    return comments;
 }
 
 console.log(interpolateComment(418, "Refresh token is missing", [
-  "salmon discount code",
-  418,
-  "I can't remember my email",
-  420,
+    "salmon discount code",
+    418,
+    "I can't remember my email",
+    420,
 ]));
 
 
 function interpolateComments(
-  id: number,
-  comment: string,
-  comments: (string | number)[]
+    id: number,
+    comment: string,
+    comments: (string | number)[]
 ) {
-  const iterator = comments.findIndex((item) => item === id)
-  if (iterator != -1) {
-    comments[iterator] = comment;
-  }
+    const iterator = comments.findIndex((item) => item === id)
+    if (iterator != -1) {
+        comments[iterator] = comment;
+    }
 }
+
+
+
+
+
+
+/*
+we can use Types for Objects too in Typescript 
+syntax goes this way: 
+Type someObject = {
+    name: string, 
+    age: number, 
+    alive: boolean
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
