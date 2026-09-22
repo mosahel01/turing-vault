@@ -51,9 +51,6 @@ function interpolateComments(
 
 
 
-
-
-
 /*
 we can use Types for Objects too in Typescript 
 syntax goes this way: 
@@ -63,22 +60,4 @@ Type someObject = {
     alive: boolean
 }
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
