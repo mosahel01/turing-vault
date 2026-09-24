@@ -14,21 +14,13 @@ type CodingLesson = {
 type Lesson = MultipleChoiceLesson | CodingLesson;
 
 
-// function isCorrect(lesson: Lesson): boolean {
-//     switch (lesson.kind) {
-//         case "multiple-choice":
-//             return lesson.studentAnswer === lesson.correctAnswer;
-//         case "coding":
-//             return lesson.studentCode === lesson.solutionCode;
-//     }
-// }
+function isCorrect(lesson: Lesson): boolean {
+    switch (lesson.kind) {
+        case "multiple-choice":
+            return lesson.studentAnswer === lesson.correctAnswer;
+        case "coding":
+            return lesson.studentCode === lesson.solutionCode;
+    }
+}
 
 // console.log(isCorrect());
-
-
-// function isCorrect(lesson: Lesson) {
-//     switch(lesson.kind) {
-//             case "multiple-choice":
-// return lesson.studentAnswer === lesson.
-//     }
-// }
