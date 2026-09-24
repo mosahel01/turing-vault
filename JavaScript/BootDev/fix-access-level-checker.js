@@ -22,3 +22,4 @@ console.log(getAccessLevel(15, true, false, false));   // "limited"
 console.log(getAccessLevel(15, false, false, false));  // "none"
 console.log(getAccessLevel(30, false, true, false));   // "admin"
 console.log(getAccessLevel(20, true, true, true));     // "banned"
+

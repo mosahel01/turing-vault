@@ -27,13 +27,10 @@ const userData: UserWithAddress = [
 	"Aragorn",
 	{
 		city: "Minas Tirith",
-		country: "Gondor"
+	    country: "Gondor"
 	},
 ];
 
 const [userName, { city, country }] = userData;
 console.log(city);
 // ?
-
-
-

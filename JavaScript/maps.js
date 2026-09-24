@@ -46,5 +46,3 @@ console.log(createUserMap([
 
 
 
-
-

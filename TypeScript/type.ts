@@ -60,4 +60,3 @@ Type someObject = {
     alive: boolean
 }
 */
-
